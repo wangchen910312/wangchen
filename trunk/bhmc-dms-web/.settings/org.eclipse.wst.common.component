@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="bhmc-dms-web-0.0.1">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="bhmc-dms-core-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-core/bhmc-dms-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-cmm-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-cmm/bhmc-dms-cmm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-support-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-support/bhmc-dms-support">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-crm-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-crm/bhmc-dms-crm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-mis-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-mis/bhmc-dms-mis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-par-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-par/bhmc-dms-par">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-ser-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-ser/bhmc-dms-ser">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-sal-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-sal/bhmc-dms-sal">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-mobile-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-mobile/bhmc-dms-mobile">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-ws-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-ws/bhmc-dms-ws">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bhmc-dms-mob-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bhmc-dms-mob/bhmc-dms-mob">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="bhmc-dms-web"/>
+        <property name="java-output-path" value="/bhmc-dms-web/target/classes"/>
+    </wb-module>
+</project-modules>
